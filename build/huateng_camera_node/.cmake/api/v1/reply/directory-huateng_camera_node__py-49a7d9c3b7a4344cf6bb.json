@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "huateng_camera_node__py",
+		"source" : "build/huateng_camera_node/huateng_camera_node__py"
+	}
+}

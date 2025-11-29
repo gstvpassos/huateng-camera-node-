@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a969bac38be8dd951a0d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "huateng_camera_node__py",
+					"jsonFile" : "directory-huateng_camera_node__py-49a7d9c3b7a4344cf6bb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "build/huateng_camera_node/huateng_camera_node__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "huateng_camera_node",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_huateng_camera_node_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_huateng_camera_node_egg-e7cb342a84bb47202877.json",
+					"name" : "ament_cmake_python_build_huateng_camera_node_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_huateng_camera_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_huateng_camera_node-a58a6da14168fc25b888.json",
+					"name" : "ament_cmake_python_symlink_huateng_camera_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "huateng_camera_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-huateng_camera_node-d54c1b9536efb0ead2f1.json",
+					"name" : "huateng_camera_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "huateng_camera_node__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-huateng_camera_node__cpp-77490bae59454d2fa82c.json",
+					"name" : "huateng_camera_node__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "huateng_camera_node__py::@9daf1661dca6ddc2a916",
+					"jsonFile" : "target-huateng_camera_node__py-b50a5f906742a9ae9482.json",
+					"name" : "huateng_camera_node__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "huateng_camera_node__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-huateng_camera_node__rosidl_generator_c-02b3fa2f4deaa1c47663.json",
+					"name" : "huateng_camera_node__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "huateng_camera_node__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-huateng_camera_node__rosidl_generator_py-7af8deee216ad6473857.json",
+					"name" : "huateng_camera_node__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "huateng_camera_node__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-huateng_camera_node__rosidl_typesupport_c-09a6850c9d5386cd4824.json",
+					"name" : "huateng_camera_node__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "huateng_camera_node__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-huateng_camera_node__rosidl_typesupport_c__pyext-93be370e44aff7319333.json",
+					"name" : "huateng_camera_node__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "huateng_camera_node__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-huateng_camera_node__rosidl_typesupport_cpp-3b8644d836bb11805a32.json",
+					"name" : "huateng_camera_node__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "huateng_camera_node__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-huateng_camera_node__rosidl_typesupport_fastrtps_c-700be2446c97ab0d44b4.json",
+					"name" : "huateng_camera_node__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "huateng_camera_node__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-huateng_camera_node__rosidl_typesupport_fastrtps_c__pyext-48145e46b7612fda2f30.json",
+					"name" : "huateng_camera_node__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "huateng_camera_node__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-huateng_camera_node__rosidl_typesupport_fastrtps_cpp-2e1c12f8064fdc77200f.json",
+					"name" : "huateng_camera_node__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "huateng_camera_node__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-huateng_camera_node__rosidl_typesupport_introspection_c-64bafe78fb9d45ed2ac3.json",
+					"name" : "huateng_camera_node__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "huateng_camera_node__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-huateng_camera_node__rosidl_typesupport_introspection_c__pyext-0e6f0a579aca340a1293.json",
+					"name" : "huateng_camera_node__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "huateng_camera_node__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-huateng_camera_node__rosidl_typesupport_introspection_cpp-bf5cedf592c05d779a12.json",
+					"name" : "huateng_camera_node__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "huateng_camera_node_exec::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-huateng_camera_node_exec-6f5cfcecfa467375d42f.json",
+					"name" : "huateng_camera_node_exec",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "huateng_camera_node_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-huateng_camera_node_uninstall-a4bc48e20b7e283739f2.json",
+					"name" : "huateng_camera_node_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-cdce3e3999576beefa16.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/gustavo/Downloads/huateng_camera_node/build/huateng_camera_node",
+		"source" : "/home/gustavo/Downloads/huateng_camera_node"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

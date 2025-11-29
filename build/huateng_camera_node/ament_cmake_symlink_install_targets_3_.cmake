@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/gustavo/Downloads/huateng_camera_node/build/huateng_camera_node/huateng_camera_node_exec" "TARGETS" "huateng_camera_node_exec" "DESTINATION" "lib/huateng_camera_node")

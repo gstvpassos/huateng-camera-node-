@@ -1,0 +1,1 @@
+/home/gustavo/Downloads/huateng_camera_node/build/huateng_camera_node/rosidl_cmake/srv/SetFloat32_Response.msg

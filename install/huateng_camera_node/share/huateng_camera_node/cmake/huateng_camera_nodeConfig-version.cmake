@@ -1,0 +1,1 @@
+/home/gustavo/Downloads/huateng_camera_node/build/huateng_camera_node/ament_cmake_core/huateng_camera_nodeConfig-version.cmake

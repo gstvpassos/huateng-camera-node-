@@ -1,0 +1,1 @@
+/home/gustavo/Downloads/huateng_camera_node/build/huateng_camera_node/rosidl_generator_py/huateng_camera_node/srv/_set_float32_s.c

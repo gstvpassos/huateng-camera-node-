@@ -1,0 +1,1 @@
+/home/gustavo/Downloads/huateng_camera_node/build/huateng_camera_node/rosidl_typesupport_introspection_c/huateng_camera_node/srv/detail/set_float32__rosidl_typesupport_introspection_c.h

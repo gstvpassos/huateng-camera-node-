@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from huateng_camera_node/srv/SetFloat32.srv
+// generated code does not contain a copyright notice
+
+
+module huateng_camera_node {
+  module srv {
+    struct SetFloat32_Request {
+      float data;
+    };
+    struct SetFloat32_Response {
+      boolean success;
+    };
+  };
+};

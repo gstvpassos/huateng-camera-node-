@@ -1,0 +1,477 @@
+[0.000000] (-) TimerEvent: {}
+[0.000909] (huateng_camera_node) JobQueued: {'identifier': 'huateng_camera_node', 'dependencies': OrderedDict()}
+[0.000995] (huateng_camera_node) JobStarted: {'identifier': 'huateng_camera_node'}
+[0.011238] (huateng_camera_node) JobProgress: {'identifier': 'huateng_camera_node', 'progress': 'cmake'}
+[0.012071] (huateng_camera_node) Command: {'cmd': ['/usr/bin/cmake', '/home/gustavo/Downloads/huateng_camera_node', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node'], 'cwd': '/home/gustavo/Downloads/huateng_camera_node/build/huateng_camera_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gustavo'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '4321'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gustavo'), ('OLDPWD', '/home/gustavo/Downloads'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1701'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gustavo/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gustavo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gustavo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gustavo-Aspire-A315-42G:@/tmp/.ICE-unix/1503,unix/gustavo-Aspire-A315-42G:/tmp/.ICE-unix/1503'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c9737e64_3f52_40b8_920a_74e7ff07cf9a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IGW1F3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXSyGNcZ/agent.4320'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gustavo/Downloads/huateng_camera_node/build/huateng_camera_node'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099806] (-) TimerEvent: {}
+[0.199830] (huateng_camera_node) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.200106] (-) TimerEvent: {}
+[0.300413] (-) TimerEvent: {}
+[0.359714] (huateng_camera_node) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.386982] (huateng_camera_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400538] (-) TimerEvent: {}
+[0.500935] (-) TimerEvent: {}
+[0.527047] (huateng_camera_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.539596] (huateng_camera_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.540158] (huateng_camera_node) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.540968] (huateng_camera_node) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.545982] (huateng_camera_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.601097] (-) TimerEvent: {}
+[0.675280] (huateng_camera_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.700968] (huateng_camera_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.701154] (-) TimerEvent: {}
+[0.701908] (huateng_camera_node) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.703251] (huateng_camera_node) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.713461] (huateng_camera_node) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.801299] (-) TimerEvent: {}
+[0.901691] (-) TimerEvent: {}
+[0.924337] (huateng_camera_node) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.001846] (-) TimerEvent: {}
+[1.009535] (huateng_camera_node) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.075770] (huateng_camera_node) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.081173] (huateng_camera_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.089951] (huateng_camera_node) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.101989] (-) TimerEvent: {}
+[1.147929] (huateng_camera_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.196004] (huateng_camera_node) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.202110] (-) TimerEvent: {}
+[1.266385] (huateng_camera_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.270179] (huateng_camera_node) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.302274] (-) TimerEvent: {}
+[1.402695] (-) TimerEvent: {}
+[1.414503] (huateng_camera_node) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.453959] (huateng_camera_node) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.502845] (-) TimerEvent: {}
+[1.507251] (huateng_camera_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.519253] (huateng_camera_node) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.603003] (-) TimerEvent: {}
+[1.654352] (huateng_camera_node) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.654917] (huateng_camera_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.703133] (-) TimerEvent: {}
+[1.791358] (huateng_camera_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.794666] (huateng_camera_node) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.803228] (-) TimerEvent: {}
+[1.894290] (huateng_camera_node) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.903383] (-) TimerEvent: {}
+[1.943081] (huateng_camera_node) StdoutLine: {'line': b'-- Found diagnostic_msgs: 4.9.0 (/opt/ros/humble/share/diagnostic_msgs/cmake)\n'}
+[1.967435] (huateng_camera_node) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[1.985973] (huateng_camera_node) StdoutLine: {'line': b'-- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[2.003559] (-) TimerEvent: {}
+[2.034285] (huateng_camera_node) StdoutLine: {'line': b'-- Found camera_info_manager: 3.1.12 (/opt/ros/humble/share/camera_info_manager/cmake)\n'}
+[2.054340] (huateng_camera_node) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[2.103695] (-) TimerEvent: {}
+[2.204124] (-) TimerEvent: {}
+[2.304628] (-) TimerEvent: {}
+[2.405080] (-) TimerEvent: {}
+[2.424967] (huateng_camera_node) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.505235] (-) TimerEvent: {}
+[2.605619] (-) TimerEvent: {}
+[2.705934] (-) TimerEvent: {}
+[2.726435] (huateng_camera_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.806082] (-) TimerEvent: {}
+[2.906506] (-) TimerEvent: {}
+[3.006848] (-) TimerEvent: {}
+[3.107258] (-) TimerEvent: {}
+[3.140246] (huateng_camera_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.178953] (huateng_camera_node) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.183872] (huateng_camera_node) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.207402] (-) TimerEvent: {}
+[3.230478] (huateng_camera_node) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.231110] (huateng_camera_node) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.231408] (huateng_camera_node) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.231608] (huateng_camera_node) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.263302] (huateng_camera_node) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.307538] (-) TimerEvent: {}
+[3.352401] (huateng_camera_node) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.407681] (-) TimerEvent: {}
+[3.413292] (huateng_camera_node) StdoutLine: {'line': b'-- Generating done\n'}
+[3.433628] (huateng_camera_node) StdoutLine: {'line': b'-- Build files have been written to: /home/gustavo/Downloads/huateng_camera_node/build/huateng_camera_node\n'}
+[3.450190] (huateng_camera_node) CommandEnded: {'returncode': 0}
+[3.451111] (huateng_camera_node) JobProgress: {'identifier': 'huateng_camera_node', 'progress': 'build'}
+[3.452594] (huateng_camera_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gustavo/Downloads/huateng_camera_node/build/huateng_camera_node', '--', '-j8', '-l8'], 'cwd': '/home/gustavo/Downloads/huateng_camera_node/build/huateng_camera_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gustavo'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '4321'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gustavo'), ('OLDPWD', '/home/gustavo/Downloads'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1701'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gustavo/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gustavo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gustavo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gustavo-Aspire-A315-42G:@/tmp/.ICE-unix/1503,unix/gustavo-Aspire-A315-42G:/tmp/.ICE-unix/1503'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c9737e64_3f52_40b8_920a_74e7ff07cf9a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IGW1F3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXSyGNcZ/agent.4320'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gustavo/Downloads/huateng_camera_node/build/huateng_camera_node'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.507856] (-) TimerEvent: {}
+[3.521861] (huateng_camera_node) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.533984] (huateng_camera_node) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.556323] (huateng_camera_node) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_symlink_huateng_camera_node\n'}
+[3.608013] (-) TimerEvent: {}
+[3.708485] (-) TimerEvent: {}
+[3.808909] (-) TimerEvent: {}
+[3.884983] (huateng_camera_node) StdoutLine: {'line': b'running egg_info\n'}
+[3.886068] (huateng_camera_node) StdoutLine: {'line': b'creating huateng_camera_node.egg-info\n'}
+[3.886496] (huateng_camera_node) StdoutLine: {'line': b'writing huateng_camera_node.egg-info/PKG-INFO\n'}
+[3.886816] (huateng_camera_node) StdoutLine: {'line': b'writing dependency_links to huateng_camera_node.egg-info/dependency_links.txt\n'}
+[3.887106] (huateng_camera_node) StdoutLine: {'line': b'writing top-level names to huateng_camera_node.egg-info/top_level.txt\n'}
+[3.887399] (huateng_camera_node) StdoutLine: {'line': b"writing manifest file 'huateng_camera_node.egg-info/SOURCES.txt'\n"}
+[3.891922] (huateng_camera_node) StdoutLine: {'line': b"reading manifest file 'huateng_camera_node.egg-info/SOURCES.txt'\n"}
+[3.892974] (huateng_camera_node) StdoutLine: {'line': b"writing manifest file 'huateng_camera_node.egg-info/SOURCES.txt'\n"}
+[3.909111] (-) TimerEvent: {}
+[3.925100] (huateng_camera_node) StdoutLine: {'line': b'[  6%] Built target huateng_camera_node__cpp\n'}
+[3.941619] (huateng_camera_node) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.944060] (huateng_camera_node) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.944472] (huateng_camera_node) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.944678] (huateng_camera_node) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/huateng_camera_node__rosidl_generator_c.dir/rosidl_generator_c/huateng_camera_node/srv/detail/set_float32__functions.c.o\x1b[0m\n'}
+[3.948971] (huateng_camera_node) StdoutLine: {'line': b'[ 18%] Built target ament_cmake_python_build_huateng_camera_node_egg\n'}
+[4.009288] (-) TimerEvent: {}
+[4.049186] (huateng_camera_node) StdoutLine: {'line': b'[ 21%] \x1b[32m\x1b[1mLinking C shared library libhuateng_camera_node__rosidl_generator_c.so\x1b[0m\n'}
+[4.104739] (huateng_camera_node) StdoutLine: {'line': b'[ 21%] Built target huateng_camera_node__rosidl_generator_c\n'}
+[4.109421] (-) TimerEvent: {}
+[4.123821] (huateng_camera_node) StdoutLine: {'line': b'[ 24%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.124173] (huateng_camera_node) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.124469] (huateng_camera_node) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.209572] (-) TimerEvent: {}
+[4.309981] (-) TimerEvent: {}
+[4.335770] (huateng_camera_node) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/huateng_camera_node__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/huateng_camera_node/srv/detail/set_float32__type_support.cpp.o\x1b[0m\n'}
+[4.382505] (huateng_camera_node) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/huateng_camera_node__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/huateng_camera_node/srv/set_float32__type_support.cpp.o\x1b[0m\n'}
+[4.410358] (-) TimerEvent: {}
+[4.454740] (huateng_camera_node) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/huateng_camera_node__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/huateng_camera_node/srv/detail/dds_fastrtps/set_float32__type_support.cpp.o\x1b[0m\n'}
+[4.489692] (huateng_camera_node) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/huateng_camera_node__rosidl_typesupport_c.dir/rosidl_typesupport_c/huateng_camera_node/srv/set_float32__type_support.cpp.o\x1b[0m\n'}
+[4.510512] (-) TimerEvent: {}
+[4.543019] (huateng_camera_node) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libhuateng_camera_node__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.614390] (-) TimerEvent: {}
+[4.637963] (huateng_camera_node) StdoutLine: {'line': b'[ 45%] Built target huateng_camera_node__rosidl_typesupport_c\n'}
+[4.698746] (huateng_camera_node) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/huateng_camera_node__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/huateng_camera_node/srv/detail/set_float32__type_support.c.o\x1b[0m\n'}
+[4.702372] (huateng_camera_node) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/huateng_camera_node__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/huateng_camera_node/srv/detail/set_float32__type_support_c.cpp.o\x1b[0m\n'}
+[4.714527] (-) TimerEvent: {}
+[4.758881] (huateng_camera_node) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking C shared library libhuateng_camera_node__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.809459] (huateng_camera_node) StdoutLine: {'line': b'[ 54%] Built target huateng_camera_node__rosidl_typesupport_introspection_c\n'}
+[4.814681] (-) TimerEvent: {}
+[4.915113] (-) TimerEvent: {}
+[4.939154] (huateng_camera_node) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libhuateng_camera_node__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.004686] (huateng_camera_node) StdoutLine: {'line': b'[ 57%] Built target huateng_camera_node__rosidl_typesupport_cpp\n'}
+[5.013197] (huateng_camera_node) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libhuateng_camera_node__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.015277] (-) TimerEvent: {}
+[5.083222] (huateng_camera_node) StdoutLine: {'line': b'[ 60%] Built target huateng_camera_node__rosidl_typesupport_introspection_cpp\n'}
+[5.115432] (-) TimerEvent: {}
+[5.162946] (huateng_camera_node) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libhuateng_camera_node__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.199602] (huateng_camera_node) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libhuateng_camera_node__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.215593] (-) TimerEvent: {}
+[5.302959] (huateng_camera_node) StdoutLine: {'line': b'[ 66%] Built target huateng_camera_node__rosidl_typesupport_fastrtps_cpp\n'}
+[5.315766] (-) TimerEvent: {}
+[5.339236] (huateng_camera_node) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/huateng_camera_node_exec.dir/src/huateng_camera_node.cpp.o\x1b[0m\n'}
+[5.341829] (huateng_camera_node) StdoutLine: {'line': b'[ 69%] Built target huateng_camera_node__rosidl_typesupport_fastrtps_c\n'}
+[5.380577] (huateng_camera_node) StdoutLine: {'line': b'[ 69%] Built target huateng_camera_node\n'}
+[5.415930] (-) TimerEvent: {}
+[5.417830] (huateng_camera_node) StdoutLine: {'line': b'[ 72%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.516091] (-) TimerEvent: {}
+[5.616451] (-) TimerEvent: {}
+[5.716792] (-) TimerEvent: {}
+[5.817142] (-) TimerEvent: {}
+[5.894257] (huateng_camera_node) StdoutLine: {'line': b'[ 72%] Built target huateng_camera_node__py\n'}
+[5.917295] (-) TimerEvent: {}
+[5.932101] (huateng_camera_node) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object CMakeFiles/huateng_camera_node__rosidl_generator_py.dir/rosidl_generator_py/huateng_camera_node/srv/_set_float32_s.c.o\x1b[0m\n'}
+[6.017464] (-) TimerEvent: {}
+[6.109072] (huateng_camera_node) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/huateng_camera_node/libhuateng_camera_node__rosidl_generator_py.so\x1b[0m\n'}
+[6.117606] (-) TimerEvent: {}
+[6.182141] (huateng_camera_node) StdoutLine: {'line': b'[ 78%] Built target huateng_camera_node__rosidl_generator_py\n'}
+[6.214011] (huateng_camera_node) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/huateng_camera_node__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/huateng_camera_node/_huateng_camera_node_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[6.215944] (huateng_camera_node) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/huateng_camera_node__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/huateng_camera_node/_huateng_camera_node_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[6.217737] (-) TimerEvent: {}
+[6.218091] (huateng_camera_node) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/huateng_camera_node__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/huateng_camera_node/_huateng_camera_node_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[6.317898] (-) TimerEvent: {}
+[6.363817] (huateng_camera_node) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/huateng_camera_node/huateng_camera_node_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.364110] (huateng_camera_node) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/huateng_camera_node/huateng_camera_node_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.368572] (huateng_camera_node) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/huateng_camera_node/huateng_camera_node_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.418049] (-) TimerEvent: {}
+[6.420815] (huateng_camera_node) StdoutLine: {'line': b'[ 96%] Built target huateng_camera_node__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.421102] (huateng_camera_node) StdoutLine: {'line': b'[ 96%] Built target huateng_camera_node__rosidl_typesupport_introspection_c__pyext\n'}
+[6.425409] (huateng_camera_node) StdoutLine: {'line': b'[ 96%] Built target huateng_camera_node__rosidl_typesupport_c__pyext\n'}
+[6.518185] (-) TimerEvent: {}
+[6.618582] (-) TimerEvent: {}
+[6.718947] (-) TimerEvent: {}
+[6.819317] (-) TimerEvent: {}
+[6.919691] (-) TimerEvent: {}
+[7.020076] (-) TimerEvent: {}
+[7.120496] (-) TimerEvent: {}
+[7.221048] (-) TimerEvent: {}
+[7.321469] (-) TimerEvent: {}
+[7.421853] (-) TimerEvent: {}
+[7.522241] (-) TimerEvent: {}
+[7.622619] (-) TimerEvent: {}
+[7.723014] (-) TimerEvent: {}
+[7.823410] (-) TimerEvent: {}
+[7.923790] (-) TimerEvent: {}
+[8.024172] (-) TimerEvent: {}
+[8.124585] (-) TimerEvent: {}
+[8.224999] (-) TimerEvent: {}
+[8.325428] (-) TimerEvent: {}
+[8.425842] (-) TimerEvent: {}
+[8.526231] (-) TimerEvent: {}
+[8.626614] (-) TimerEvent: {}
+[8.726991] (-) TimerEvent: {}
+[8.827375] (-) TimerEvent: {}
+[8.927764] (-) TimerEvent: {}
+[9.028144] (-) TimerEvent: {}
+[9.128545] (-) TimerEvent: {}
+[9.228920] (-) TimerEvent: {}
+[9.329323] (-) TimerEvent: {}
+[9.429707] (-) TimerEvent: {}
+[9.530135] (-) TimerEvent: {}
+[9.630617] (-) TimerEvent: {}
+[9.731516] (-) TimerEvent: {}
+[9.832426] (-) TimerEvent: {}
+[9.933332] (-) TimerEvent: {}
+[10.034255] (-) TimerEvent: {}
+[10.135188] (-) TimerEvent: {}
+[10.236104] (-) TimerEvent: {}
+[10.336614] (-) TimerEvent: {}
+[10.437077] (-) TimerEvent: {}
+[10.537577] (-) TimerEvent: {}
+[10.638047] (-) TimerEvent: {}
+[10.738545] (-) TimerEvent: {}
+[10.839022] (-) TimerEvent: {}
+[10.939527] (-) TimerEvent: {}
+[11.039988] (-) TimerEvent: {}
+[11.140900] (-) TimerEvent: {}
+[11.241801] (-) TimerEvent: {}
+[11.342719] (-) TimerEvent: {}
+[11.443615] (-) TimerEvent: {}
+[11.544501] (-) TimerEvent: {}
+[11.645395] (-) TimerEvent: {}
+[11.746570] (-) TimerEvent: {}
+[11.847464] (-) TimerEvent: {}
+[11.948366] (-) TimerEvent: {}
+[12.049292] (-) TimerEvent: {}
+[12.150177] (-) TimerEvent: {}
+[12.251083] (-) TimerEvent: {}
+[12.351603] (-) TimerEvent: {}
+[12.452482] (-) TimerEvent: {}
+[12.553706] (-) TimerEvent: {}
+[12.654595] (-) TimerEvent: {}
+[12.755491] (-) TimerEvent: {}
+[12.856371] (-) TimerEvent: {}
+[12.956822] (-) TimerEvent: {}
+[13.057272] (-) TimerEvent: {}
+[13.157682] (-) TimerEvent: {}
+[13.258123] (-) TimerEvent: {}
+[13.358597] (-) TimerEvent: {}
+[13.459028] (-) TimerEvent: {}
+[13.559458] (-) TimerEvent: {}
+[13.659854] (-) TimerEvent: {}
+[13.760295] (-) TimerEvent: {}
+[13.860743] (-) TimerEvent: {}
+[13.961163] (-) TimerEvent: {}
+[14.061633] (-) TimerEvent: {}
+[14.162068] (-) TimerEvent: {}
+[14.262532] (-) TimerEvent: {}
+[14.362951] (-) TimerEvent: {}
+[14.463445] (-) TimerEvent: {}
+[14.563875] (-) TimerEvent: {}
+[14.664364] (-) TimerEvent: {}
+[14.764802] (-) TimerEvent: {}
+[14.865329] (-) TimerEvent: {}
+[14.965931] (-) TimerEvent: {}
+[15.066335] (-) TimerEvent: {}
+[15.166795] (-) TimerEvent: {}
+[15.267256] (-) TimerEvent: {}
+[15.367665] (-) TimerEvent: {}
+[15.468095] (-) TimerEvent: {}
+[15.568515] (-) TimerEvent: {}
+[15.669005] (-) TimerEvent: {}
+[15.769526] (-) TimerEvent: {}
+[15.870020] (-) TimerEvent: {}
+[15.970509] (-) TimerEvent: {}
+[16.070931] (-) TimerEvent: {}
+[16.171441] (-) TimerEvent: {}
+[16.271881] (-) TimerEvent: {}
+[16.372349] (-) TimerEvent: {}
+[16.472812] (-) TimerEvent: {}
+[16.573309] (-) TimerEvent: {}
+[16.673704] (-) TimerEvent: {}
+[16.774139] (-) TimerEvent: {}
+[16.874594] (-) TimerEvent: {}
+[16.975005] (-) TimerEvent: {}
+[17.075428] (-) TimerEvent: {}
+[17.175852] (-) TimerEvent: {}
+[17.276285] (-) TimerEvent: {}
+[17.376667] (-) TimerEvent: {}
+[17.477074] (-) TimerEvent: {}
+[17.577505] (-) TimerEvent: {}
+[17.677923] (-) TimerEvent: {}
+[17.778400] (-) TimerEvent: {}
+[17.878870] (-) TimerEvent: {}
+[17.979329] (-) TimerEvent: {}
+[18.079750] (-) TimerEvent: {}
+[18.180120] (-) TimerEvent: {}
+[18.280551] (-) TimerEvent: {}
+[18.380919] (-) TimerEvent: {}
+[18.481314] (-) TimerEvent: {}
+[18.581758] (-) TimerEvent: {}
+[18.682229] (-) TimerEvent: {}
+[18.782636] (-) TimerEvent: {}
+[18.883048] (-) TimerEvent: {}
+[18.983503] (-) TimerEvent: {}
+[19.083994] (-) TimerEvent: {}
+[19.185051] (-) TimerEvent: {}
+[19.285533] (-) TimerEvent: {}
+[19.385950] (-) TimerEvent: {}
+[19.486383] (-) TimerEvent: {}
+[19.586776] (-) TimerEvent: {}
+[19.687166] (-) TimerEvent: {}
+[19.787607] (-) TimerEvent: {}
+[19.888004] (-) TimerEvent: {}
+[19.988422] (-) TimerEvent: {}
+[20.088874] (-) TimerEvent: {}
+[20.189355] (-) TimerEvent: {}
+[20.289910] (-) TimerEvent: {}
+[20.390389] (-) TimerEvent: {}
+[20.490814] (-) TimerEvent: {}
+[20.591256] (-) TimerEvent: {}
+[20.691665] (-) TimerEvent: {}
+[20.792114] (-) TimerEvent: {}
+[20.892539] (-) TimerEvent: {}
+[20.992953] (-) TimerEvent: {}
+[21.093347] (-) TimerEvent: {}
+[21.193732] (-) TimerEvent: {}
+[21.294154] (-) TimerEvent: {}
+[21.394597] (-) TimerEvent: {}
+[21.495472] (-) TimerEvent: {}
+[21.596367] (-) TimerEvent: {}
+[21.696852] (-) TimerEvent: {}
+[21.797350] (-) TimerEvent: {}
+[21.897945] (-) TimerEvent: {}
+[21.998461] (-) TimerEvent: {}
+[22.098910] (-) TimerEvent: {}
+[22.199352] (-) TimerEvent: {}
+[22.261410] (huateng_camera_node) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable huateng_camera_node_exec\x1b[0m\n'}
+[22.299485] (-) TimerEvent: {}
+[22.399865] (-) TimerEvent: {}
+[22.500324] (-) TimerEvent: {}
+[22.600765] (-) TimerEvent: {}
+[22.701194] (-) TimerEvent: {}
+[22.801633] (-) TimerEvent: {}
+[22.902057] (-) TimerEvent: {}
+[23.002487] (-) TimerEvent: {}
+[23.102841] (-) TimerEvent: {}
+[23.203287] (-) TimerEvent: {}
+[23.303688] (-) TimerEvent: {}
+[23.404138] (-) TimerEvent: {}
+[23.504574] (-) TimerEvent: {}
+[23.605052] (-) TimerEvent: {}
+[23.676820] (huateng_camera_node) StdoutLine: {'line': b'[100%] Built target huateng_camera_node_exec\n'}
+[23.703085] (huateng_camera_node) CommandEnded: {'returncode': 0}
+[23.704777] (huateng_camera_node) JobProgress: {'identifier': 'huateng_camera_node', 'progress': 'install'}
+[23.705617] (-) TimerEvent: {}
+[23.727954] (huateng_camera_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/gustavo/Downloads/huateng_camera_node/build/huateng_camera_node'], 'cwd': '/home/gustavo/Downloads/huateng_camera_node/build/huateng_camera_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gustavo'), ('LC_TIME', 'pt_BR.UTF-8'), ('SSH_AGENT_PID', '4321'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gustavo'), ('OLDPWD', '/home/gustavo/Downloads'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1701'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gustavo/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gustavo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gustavo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gustavo-Aspire-A315-42G:@/tmp/.ICE-unix/1503,unix/gustavo-Aspire-A315-42G:/tmp/.ICE-unix/1503'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c9737e64_3f52_40b8_920a_74e7ff07cf9a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.IGW1F3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXSyGNcZ/agent.4320'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gustavo/Downloads/huateng_camera_node/build/huateng_camera_node'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[23.737687] (huateng_camera_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[23.738299] (huateng_camera_node) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[23.738746] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/ament_index/resource_index/rosidl_interfaces/huateng_camera_node\n'}
+[23.760182] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/include/huateng_camera_node/huateng_camera_node/msg/rosidl_generator_c__visibility_control.h\n'}
+[23.773062] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/include/huateng_camera_node/huateng_camera_node/srv/detail/set_float32__functions.h\n'}
+[23.785180] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/include/huateng_camera_node/huateng_camera_node/srv/detail/set_float32__struct.h\n'}
+[23.797578] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/include/huateng_camera_node/huateng_camera_node/srv/detail/set_float32__type_support.h\n'}
+[23.805755] (-) TimerEvent: {}
+[23.813552] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/include/huateng_camera_node/huateng_camera_node/srv/set_float32.h\n'}
+[23.832701] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/huateng_camera_node/environment/library_path.sh\n'}
+[23.845348] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/huateng_camera_node/environment/library_path.dsv\n'}
+[23.858525] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/include/huateng_camera_node/huateng_camera_node/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[23.873645] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/include/huateng_camera_node/huateng_camera_node/srv/detail/set_float32__rosidl_typesupport_fastrtps_c.h\n'}
+[23.885942] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/include/huateng_camera_node/huateng_camera_node/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[23.897735] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/include/huateng_camera_node/huateng_camera_node/srv/detail/set_float32__rosidl_typesupport_introspection_c.h\n'}
+[23.905871] (-) TimerEvent: {}
+[23.910129] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/include/huateng_camera_node/huateng_camera_node/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[23.922037] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/include/huateng_camera_node/huateng_camera_node/srv/detail/set_float32__builder.hpp\n'}
+[23.934052] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/include/huateng_camera_node/huateng_camera_node/srv/detail/set_float32__struct.hpp\n'}
+[23.946126] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/include/huateng_camera_node/huateng_camera_node/srv/detail/set_float32__traits.hpp\n'}
+[23.967300] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/include/huateng_camera_node/huateng_camera_node/srv/detail/set_float32__type_support.hpp\n'}
+[23.979363] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/include/huateng_camera_node/huateng_camera_node/srv/set_float32.hpp\n'}
+[24.002017] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/include/huateng_camera_node/huateng_camera_node/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[24.005984] (-) TimerEvent: {}
+[24.014134] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/include/huateng_camera_node/huateng_camera_node/srv/detail/set_float32__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[24.026960] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/include/huateng_camera_node/huateng_camera_node/srv/detail/set_float32__rosidl_typesupport_introspection_cpp.hpp\n'}
+[24.046681] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/huateng_camera_node/environment/pythonpath.sh\n'}
+[24.058667] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/huateng_camera_node/environment/pythonpath.dsv\n'}
+[24.083319] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/local/lib/python3.10/dist-packages/huateng_camera_node-0.0.1-py3.10.egg-info/PKG-INFO\n'}
+[24.096475] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/local/lib/python3.10/dist-packages/huateng_camera_node-0.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[24.106099] (-) TimerEvent: {}
+[24.112632] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/local/lib/python3.10/dist-packages/huateng_camera_node-0.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[24.124649] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/local/lib/python3.10/dist-packages/huateng_camera_node-0.0.1-py3.10.egg-info/top_level.txt\n'}
+[24.138392] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/local/lib/python3.10/dist-packages/huateng_camera_node/__init__.py\n'}
+[24.156015] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/local/lib/python3.10/dist-packages/huateng_camera_node/_huateng_camera_node_s.ep.rosidl_typesupport_c.c\n'}
+[24.167558] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/local/lib/python3.10/dist-packages/huateng_camera_node/_huateng_camera_node_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[24.179255] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/local/lib/python3.10/dist-packages/huateng_camera_node/_huateng_camera_node_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[24.192091] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/local/lib/python3.10/dist-packages/huateng_camera_node/huateng_camera_node_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.206247] (-) TimerEvent: {}
+[24.213346] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/local/lib/python3.10/dist-packages/huateng_camera_node/huateng_camera_node_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.225382] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/local/lib/python3.10/dist-packages/huateng_camera_node/huateng_camera_node_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.237616] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/local/lib/python3.10/dist-packages/huateng_camera_node/libhuateng_camera_node__rosidl_generator_py.so\n'}
+[24.250325] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/local/lib/python3.10/dist-packages/huateng_camera_node/srv/__init__.py\n'}
+[24.262467] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/local/lib/python3.10/dist-packages/huateng_camera_node/srv/_set_float32.py\n'}
+[24.274322] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/local/lib/python3.10/dist-packages/huateng_camera_node/srv/_set_float32_s.c\n'}
+[24.287166] (huateng_camera_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/local/lib/python3.10/dist-packages/huateng_camera_node/huateng_camera_node_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.287785] (huateng_camera_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/local/lib/python3.10/dist-packages/huateng_camera_node/huateng_camera_node_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.288271] (huateng_camera_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/local/lib/python3.10/dist-packages/huateng_camera_node/huateng_camera_node_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[24.288628] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/huateng_camera_node/srv/SetFloat32.idl\n'}
+[24.306349] (-) TimerEvent: {}
+[24.310453] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/huateng_camera_node/srv/SetFloat32.srv\n'}
+[24.328425] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/huateng_camera_node/srv/SetFloat32_Request.msg\n'}
+[24.348284] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/huateng_camera_node/srv/SetFloat32_Response.msg\n'}
+[24.361345] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/lib/huateng_camera_node/huateng_camera_node_exec\n'}
+[24.373943] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/huateng_camera_node//config/camera_params.yaml\n'}
+[24.386145] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/ament_index/resource_index/package_run_dependencies/huateng_camera_node\n'}
+[24.398351] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/ament_index/resource_index/parent_prefix_path/huateng_camera_node\n'}
+[24.406466] (-) TimerEvent: {}
+[24.410416] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/huateng_camera_node/environment/ament_prefix_path.sh\n'}
+[24.431588] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/huateng_camera_node/environment/ament_prefix_path.dsv\n'}
+[24.452667] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/huateng_camera_node/environment/path.sh\n'}
+[24.465770] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/huateng_camera_node/environment/path.dsv\n'}
+[24.477589] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/huateng_camera_node/local_setup.bash\n'}
+[24.489579] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/huateng_camera_node/local_setup.sh\n'}
+[24.501251] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/huateng_camera_node/local_setup.zsh\n'}
+[24.506591] (-) TimerEvent: {}
+[24.513106] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/huateng_camera_node/local_setup.dsv\n'}
+[24.525177] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/huateng_camera_node/package.dsv\n'}
+[24.537453] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/ament_index/resource_index/packages/huateng_camera_node\n'}
+[24.549870] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/huateng_camera_node/cmake/rosidl_cmake-extras.cmake\n'}
+[24.570189] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/huateng_camera_node/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[24.585884] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/huateng_camera_node/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[24.606745] (-) TimerEvent: {}
+[24.608388] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/huateng_camera_node/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[24.624666] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/huateng_camera_node/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[24.639783] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/huateng_camera_node/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[24.651904] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/huateng_camera_node/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[24.664269] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/huateng_camera_node/cmake/huateng_camera_nodeConfig.cmake\n'}
+[24.676266] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/huateng_camera_node/cmake/huateng_camera_nodeConfig-version.cmake\n'}
+[24.688667] (huateng_camera_node) StdoutLine: {'line': b'-- Symlinking: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/huateng_camera_node/package.xml\n'}
+[24.701016] (huateng_camera_node) StdoutLine: {'line': b'-- Installing: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/lib/libhuateng_camera_node__rosidl_generator_c.so\n'}
+[24.702029] (huateng_camera_node) StdoutLine: {'line': b'-- Set runtime path of "/home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/lib/libhuateng_camera_node__rosidl_generator_c.so" to ""\n'}
+[24.702346] (huateng_camera_node) StdoutLine: {'line': b'-- Installing: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/lib/libhuateng_camera_node__rosidl_typesupport_fastrtps_c.so\n'}
+[24.703033] (huateng_camera_node) StdoutLine: {'line': b'-- Set runtime path of "/home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/lib/libhuateng_camera_node__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[24.703320] (huateng_camera_node) StdoutLine: {'line': b'-- Installing: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/lib/libhuateng_camera_node__rosidl_typesupport_introspection_c.so\n'}
+[24.703879] (huateng_camera_node) StdoutLine: {'line': b'-- Set runtime path of "/home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/lib/libhuateng_camera_node__rosidl_typesupport_introspection_c.so" to ""\n'}
+[24.704149] (huateng_camera_node) StdoutLine: {'line': b'-- Installing: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/lib/libhuateng_camera_node__rosidl_typesupport_c.so\n'}
+[24.704698] (huateng_camera_node) StdoutLine: {'line': b'-- Set runtime path of "/home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/lib/libhuateng_camera_node__rosidl_typesupport_c.so" to ""\n'}
+[24.704945] (huateng_camera_node) StdoutLine: {'line': b'-- Installing: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/lib/libhuateng_camera_node__rosidl_typesupport_fastrtps_cpp.so\n'}
+[24.705623] (huateng_camera_node) StdoutLine: {'line': b'-- Set runtime path of "/home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/lib/libhuateng_camera_node__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[24.705897] (huateng_camera_node) StdoutLine: {'line': b'-- Installing: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/lib/libhuateng_camera_node__rosidl_typesupport_introspection_cpp.so\n'}
+[24.706486] (huateng_camera_node) StdoutLine: {'line': b'-- Set runtime path of "/home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/lib/libhuateng_camera_node__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[24.706712] (huateng_camera_node) StdoutLine: {'line': b'-- Installing: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/lib/libhuateng_camera_node__rosidl_typesupport_cpp.so\n'}
+[24.706875] (-) TimerEvent: {}
+[24.707261] (huateng_camera_node) StdoutLine: {'line': b'-- Set runtime path of "/home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/lib/libhuateng_camera_node__rosidl_typesupport_cpp.so" to ""\n'}
+[24.747762] (huateng_camera_node) StdoutLine: {'line': b"Listing '/home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/local/lib/python3.10/dist-packages/huateng_camera_node'...\n"}
+[24.748060] (huateng_camera_node) StdoutLine: {'line': b"Compiling '/home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/local/lib/python3.10/dist-packages/huateng_camera_node/__init__.py'...\n"}
+[24.748264] (huateng_camera_node) StdoutLine: {'line': b"Listing '/home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/local/lib/python3.10/dist-packages/huateng_camera_node/srv'...\n"}
+[24.748458] (huateng_camera_node) StdoutLine: {'line': b"Compiling '/home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/local/lib/python3.10/dist-packages/huateng_camera_node/srv/__init__.py'...\n"}
+[24.748620] (huateng_camera_node) StdoutLine: {'line': b"Compiling '/home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/local/lib/python3.10/dist-packages/huateng_camera_node/srv/_set_float32.py'...\n"}
+[24.753831] (huateng_camera_node) StdoutLine: {'line': b'-- Installing: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/lib/libhuateng_camera_node__rosidl_generator_py.so\n'}
+[24.754779] (huateng_camera_node) StdoutLine: {'line': b'-- Set runtime path of "/home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/lib/libhuateng_camera_node__rosidl_generator_py.so" to ""\n'}
+[24.755036] (huateng_camera_node) StdoutLine: {'line': b'-- Installing: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/huateng_camera_node/cmake/export_huateng_camera_node__rosidl_generator_cExport.cmake\n'}
+[24.755467] (huateng_camera_node) StdoutLine: {'line': b'-- Installing: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/huateng_camera_node/cmake/export_huateng_camera_node__rosidl_generator_cExport-noconfig.cmake\n'}
+[24.755968] (huateng_camera_node) StdoutLine: {'line': b'-- Installing: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/huateng_camera_node/cmake/export_huateng_camera_node__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[24.756479] (huateng_camera_node) StdoutLine: {'line': b'-- Installing: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/huateng_camera_node/cmake/export_huateng_camera_node__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[24.757027] (huateng_camera_node) StdoutLine: {'line': b'-- Installing: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/huateng_camera_node/cmake/huateng_camera_node__rosidl_typesupport_introspection_cExport.cmake\n'}
+[24.757564] (huateng_camera_node) StdoutLine: {'line': b'-- Installing: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/huateng_camera_node/cmake/huateng_camera_node__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[24.758123] (huateng_camera_node) StdoutLine: {'line': b'-- Installing: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/huateng_camera_node/cmake/huateng_camera_node__rosidl_typesupport_cExport.cmake\n'}
+[24.758665] (huateng_camera_node) StdoutLine: {'line': b'-- Installing: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/huateng_camera_node/cmake/huateng_camera_node__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[24.759229] (huateng_camera_node) StdoutLine: {'line': b'-- Installing: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/huateng_camera_node/cmake/export_huateng_camera_node__rosidl_generator_cppExport.cmake\n'}
+[24.759759] (huateng_camera_node) StdoutLine: {'line': b'-- Installing: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/huateng_camera_node/cmake/export_huateng_camera_node__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[24.760238] (huateng_camera_node) StdoutLine: {'line': b'-- Installing: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/huateng_camera_node/cmake/export_huateng_camera_node__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[24.760724] (huateng_camera_node) StdoutLine: {'line': b'-- Installing: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/huateng_camera_node/cmake/huateng_camera_node__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[24.761257] (huateng_camera_node) StdoutLine: {'line': b'-- Installing: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/huateng_camera_node/cmake/huateng_camera_node__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[24.761790] (huateng_camera_node) StdoutLine: {'line': b'-- Installing: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/huateng_camera_node/cmake/huateng_camera_node__rosidl_typesupport_cppExport.cmake\n'}
+[24.762346] (huateng_camera_node) StdoutLine: {'line': b'-- Installing: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/huateng_camera_node/cmake/huateng_camera_node__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[24.762944] (huateng_camera_node) StdoutLine: {'line': b'-- Installing: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/huateng_camera_node/cmake/export_huateng_camera_node__rosidl_generator_pyExport.cmake\n'}
+[24.763575] (huateng_camera_node) StdoutLine: {'line': b'-- Installing: /home/gustavo/Downloads/huateng_camera_node/install/huateng_camera_node/share/huateng_camera_node/cmake/export_huateng_camera_node__rosidl_generator_pyExport-noconfig.cmake\n'}
+[24.769159] (huateng_camera_node) CommandEnded: {'returncode': 0}
+[24.809010] (-) TimerEvent: {}
+[24.826800] (huateng_camera_node) JobEnded: {'identifier': 'huateng_camera_node', 'rc': 0}
+[24.827995] (-) EventReactorShutdown: {}

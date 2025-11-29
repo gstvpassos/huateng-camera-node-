@@ -1,0 +1,1 @@
+/home/gustavo/Downloads/huateng_camera_node/build/huateng_camera_node/rosidl_typesupport_fastrtps_c/huateng_camera_node/msg/rosidl_typesupport_fastrtps_c__visibility_control.h

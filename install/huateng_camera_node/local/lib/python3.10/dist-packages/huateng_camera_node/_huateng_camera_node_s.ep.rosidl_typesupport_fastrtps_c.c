@@ -1,0 +1,1 @@
+/home/gustavo/Downloads/huateng_camera_node/build/huateng_camera_node/rosidl_generator_py/huateng_camera_node/_huateng_camera_node_s.ep.rosidl_typesupport_fastrtps_c.c
