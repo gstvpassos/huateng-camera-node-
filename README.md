@@ -29,29 +29,51 @@ cd ~/ros2_ws
 colcon build --packages-select huateng_camera_node --symlink-install
 #colcon build --symlink-install
 source install/setup.bash
-ros2 run huateng_camera_node huateng_camera_node \
+ros2 run huateng_camera_node huateng_camera_node_exec \
   --ros-args --params-file ~/ros2_ws/src/huateng_camera_node/config/camera_params.yaml
 ```
 
 ## 4) Para ajustar parâmetros dinamicamente (publicar em tópicos):
 ```bash
 # setar exposição para 20000 µs
-ros2 topic pub /set_exposure std_msgs/msg/Float32 "{data: 20000.0}"
+ros2 topic pub --once /set_exposure std_msgs/msg/Float32 "{data: 20000.0}"
 
 # setar ganho raw (veja capability para step)
-ros2 topic pub /set_gain std_msgs/msg/Float32 "{data: 8.0}"
+ros2 topic pub --once /set_gain std_msgs/msg/Float32 "{data: 8.0}"
 
 # ativa auto exposure
-ros2 topic pub /set_auto_exposure std_msgs/msg/Bool "{data: true}"
+ros2 topic pub --once /set_auto_exposure std_msgs/msg/Bool "{data: true}"
 
 # executar white balance uma vez
-ros2 topic pub /do_white_balance std_msgs/msg/Bool "{data: true}"
+ros2 topic pub --once /do_white_balance std_msgs/msg/Bool "{data: true}"
 
 # salvar parâmetros do SDK para arquivo
-ros2 topic pub /save_parameters std_msgs/msg/Bool "{data: true}"
+ros2 topic pub --once /save_parameters std_msgs/msg/Bool "{data: true}"
 
 # carregar parâmetros do SDK de arquivo
-ros2 topic pub /load_parameters std_msgs/msg/Bool "{data: true}"
+ros2 topic pub --once /load_parameters std_msgs/msg/Bool "{data: true}"
+
+# 0 (sem contraste) a 100+ (binarizado)
+ros2 topic pub --once /set_contrast std_msgs/msg/Float32 "{data: 100.0}"
+
+# 100 (neutro). Tente 140 para separar faixa do asfalto
+ros2 topic pub --once /set_gamma std_msgs/msg/Float32 "{data: 140.0}"
+
+# 0 a 10
+ros2 topic pub --once /set_black_level std_msgs/msg/Float32 "{data: 5.0}"
+
+# Pular 35% do topo (Céu)
+ros2 topic pub --once /set_ae_roi_top_skip std_msgs/msg/Float32 "{data: 0.35}"
+
+# Pular 20% do fundo (Capô)
+ros2 topic pub --once /set_ae_roi_bottom_skip std_msgs/msg/Float32 "{data: 0.20}"
+
+# Primeiro desativa o Auto
+ros2 topic pub --once /set_white_balance_auto std_msgs/msg/Bool "{data: false}"
+
+# Aumenta Vermelho, Diminui Azul
+ros2 topic pub --once /set_gain_r std_msgs/msg/Float32 "{data: 130.0}"
+ros2 topic pub --once /set_gain_b std_msgs/msg/Float32 "{data: 80.0}"
 ```
 
 ## 5) Ajustar via serviços:
