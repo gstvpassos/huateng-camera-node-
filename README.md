@@ -20,8 +20,9 @@ ROS Humble node for USB3 camera data configuration and acquisition.
 	sudo chmod +x install.sh
 ```
 
-## 2) Dependências ROS para a câmera:
-	sudo apt install ros-humble-camera-info-manager
+## 2) Dependências ROS para a câmera e da interface:
+	sudo apt install ros-humble-camera-info-manager python3-opencv python3-tk python3-pillow opencv-python pillow
+
 
 ## 3) Para compilar a aplicação:
 ```bash
@@ -98,8 +99,12 @@ ros2 topic echo /camera_status
       # selecione /image_raw (ou use image_transport/compressed se ativado)
   ```
 
+## 8) Interface de calibração:
+  ```bash
+      python3 camera_dashbord.py
+  ```
 
-## 8) Recursos implementados:
+## 9) Recursos implementados:
 | Função | Tipo | ROS 2 interface |
 |------|----------------|------------|
 | **Captura de imagem** | Publisher | /image_raw |
